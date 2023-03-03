@@ -7,10 +7,22 @@ let anio = 2023
 console.log(`${nombreUsuario} es alumno del año ${anio}`);
 document.write(nombreUsuario + " es alumno del año " + anio);
 */
-/*alert("un mensaje");
 
-document.write("Hello world");
+function ejercicio1(){
+    //main.innerHTML(`alert("un mensaje")`);
+    console.log("click!")
+    alert("un mensaje");
+}
 
+function ejercicio2(){
+    document.getElementById("ejercicio2paragraph").innerHTML = "Hello World";
+}
+
+function ejercicio3(){
+    document.getElementById("ejercicio3paragraph").innerHTML = 3 + 5;
+}
+
+/*
 document.write(3 + 5);
 
 let nombreUsuario = prompt();
@@ -43,7 +55,7 @@ const vocales = /[aeiouAEIOU]/g;
 document.write(`vocales en la frase: ${frase.match(vocales)}`);
 */
 
-let frase = prompt("Ingrese una frase").toLocaleLowerCase();
+/* let frase = prompt("Ingrese una frase").toLowerCase();
 let vocalesEnFrase = "";
 
 console.log(frase.substring(""));
@@ -68,7 +80,7 @@ for (let i = 0; i < frase.length; i++) {
             break;
     }
 }
-document.write(`vocales en " ${frase} ": ${vocalesEnFrase}`);
+document.write(`vocales en " ${frase} ": ${vocalesEnFrase}`); */
 
 /* let numero = prompt();
 if (numero%2 == 0) {
