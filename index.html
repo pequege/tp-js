@@ -16,14 +16,14 @@
   <main>
     <div class="container">
       <h1>Tp1 Js</h1>
-      <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion accordion-flush" id="accordionFlushEjercicios">
         <div class="accordion-item">
           <h2 class="accordion-header" id="flush-headingOne">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
               Ejercicio 1
             </button>
           </h2>
-          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushEjercicios">
             <div class="accordion-body">
               <p>
                 Escribe un programa de una sola línea que haga que aparezca en la pantalla un alert que diga “un mensaje”.
@@ -41,7 +41,7 @@
               Ejercicio 2
             </button>
           </h2>
-          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushEjercicios">
             <div class="accordion-body">
               <p>Escribe un programa de una sola línea que escriba en la pantalla un texto que diga «Hello World» (document.write)</p>
               <pre class="border bg-dark text-light pt-3">
@@ -53,12 +53,12 @@
           </div>
         </div>
         <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingThree">
+          <h2 class="accordion-header" id="flush-headingThrees">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
               Ejercicio 3
             </button>
           </h2>
-          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushEjercicios">
             <div class="accordion-body">
               <p>
                 Escribe un programa de una sola línea que escriba en la pantalla el resultado de sumar 3 + 5.
@@ -69,6 +69,243 @@
               <button class="btn btn-primary" onclick="ejercicio3()">test</button>
               <pre class="mt-3 p-3 bg-dark text-success rounded">
                 » <span id="ejercicio3paragraph" ></span>
+              </pre>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+              Ejercicio 4
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushEjercicios">
+            <div class="accordion-body">
+              <p>
+                Escribe un programa de dos líneas que pida el nombre del usuario con un prompt y escriba un texto que diga «Hola nombreUsuario»
+              </p>
+              <pre class="border bg-dark text-light pt-3 rounded">
+                let nombreUsuario = prompt("Ingrese su nombre de usuario:");
+                document.write(`Hola ${nombreUsuario}`);
+              </pre>
+              <button class="btn btn-primary" onclick="ejercicio4()">test</button>
+              <pre class="mt-3 p-3 bg-dark text-success rounded">
+                » <span id="ejercicio4paragraph" ></span>
+              </pre>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+              Ejercicio 5
+            </button>
+          </h2>
+          <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushEjercicios">
+            <div class="accordion-body">
+              <p>
+                Escribe un programa de tres líneas que pida un número, pida otro número y escriba el resultado de sumar estos dos números.
+              </p>
+              <pre class="border bg-dark text-light pt-3 rounded">
+                let numero1 = parseInt(prompt("Ingrese el primer número"));
+                let numero2 = parseInt(prompt("Ingrese el segundo número"));
+                document.write(`${numero1} + ${numero2} = ${numero1+numero2}`);
+              </pre>
+              <button class="btn btn-primary" onclick="ejercicio5()">test</button>
+              <pre class="mt-3 p-3 bg-dark text-success rounded">
+                » <span id="ejercicio5paragraph" ></span>
+              </pre>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingSix">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+              Ejercicio 6
+            </button>
+          </h2>
+          <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushEjercicios">
+            <div class="accordion-body">
+              <p>
+                Escribe un programa que pida dos números y escriba en la pantalla cual es el mayor.
+              </p>
+              <pre class="border bg-dark text-light pt-3 rounded">
+                let numero1 = parseInt(prompt("Ingrese el primer número"));
+                let numero2 = parseInt(prompt("Ingrese el segundo número"));
+                document.write(`El número mayor es: ${Math.max(numero1, numero2)}`);
+              </pre>
+              <button class="btn btn-primary" onclick="ejercicio6()">test</button>
+              <pre class="mt-3 p-3 bg-dark text-success rounded">
+                » <span id="ejercicio6paragraph" ></span>
+              </pre>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingSeven">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+              Ejercicio 7
+            </button>
+          </h2>
+          <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushEjercicios">
+            <div class="accordion-body">
+              <p>
+                Escribe un programa que pida 3 números y escriba en la pantalla el mayor de los tres.
+              </p>
+              <pre class="border bg-dark text-light pt-3 rounded">
+                let numero1 = parseInt(prompt("Ingrese el primer número"));
+                let numero2 = parseInt(prompt("Ingrese el segundo número"));
+                let numero3 = parseInt(prompt("Ingrese el tercer número"));
+                document.write(`El número mayor es: ${Math.max(numero1, numero2, numero3)}`);
+              </pre>
+              <button class="btn btn-primary" onclick="ejercicio7()">test</button>
+              <pre class="mt-3 p-3 bg-dark text-success rounded">
+                » <span id="ejercicio7paragraph" ></span>
+              </pre>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingEight">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+              Ejercicio 8
+            </button>
+          </h2>
+          <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushEjercicios">
+            <div class="accordion-body">
+              <p>
+                Escribe un programa que pida un número y diga si es divisible por 2.
+              </p>
+              <pre class="border bg-dark text-light pt-3 rounded">
+                let numero1 = parseInt(prompt("Ingrese un número"));
+                let mensaje = numero1%2==0?" es divisible en 2":" no es divisible en 2";
+                document.write(numero1 + mensaje);
+              </pre>
+              <button class="btn btn-primary" onclick="ejercicio8()">test</button>
+              <pre class="mt-3 p-3 bg-dark text-success rounded">
+                » <span id="ejercicio8paragraph" ></span>
+              </pre>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingNine">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+              Ejercicio 9
+            </button>
+          </h2>
+          <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushEjercicios">
+            <div class="accordion-body">
+              <p>
+                Escribe un programa que pida una frase y escriba las vocales que aparecen
+              </p>
+              <pre class="border bg-dark text-light pt-3 rounded">
+                let frase = prompt("Ingrese una frase").toLowerCase();
+                let vocalesEnFrase = "";
+                
+                console.log(frase.substring(""));
+                for (let i = 0; i < frase.length; i++) {
+                    switch(frase.charAt(i)){
+                        case "a":
+                            vocalesEnFrase += "a";
+                            break;
+                        case "e":
+                            vocalesEnFrase += "e";
+                            break;
+                        case "i":
+                            vocalesEnFrase += "i";
+                            break;
+                        case "o":
+                            vocalesEnFrase += "o";
+                            break;
+                        case "u":
+                            vocalesEnFrase += "u";
+                            break;
+                        default:
+                            break;
+                    }
+                }
+                document.write(`vocales en " ${frase} ": ${vocalesEnFrase}`);
+              </pre>
+              <button class="btn btn-primary" onclick="ejercicio9()">test</button>
+              <pre class="mt-3 p-3 bg-dark text-success rounded">
+                » <span id="ejercicio9paragraph" ></span>
+              </pre>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTen">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+              Ejercicio 10
+            </button>
+          </h2>
+          <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTen" data-bs-parent="#accordionFlushEjercicios">
+            <div class="accordion-body">
+              <p>
+                Escribe un programa que pida un número y nos diga si es divisible por 2, 3, 5 o 7 (sólo hay que comprobar si lo es por uno de los cuatro).
+              </p>
+              <pre class="border bg-dark text-light pt-3 rounded">
+                let numero = prompt();
+                if (numero%2 == 0) {
+                    document.write(`${numero} es divisible en 2`);
+                } else if (numero%3 == 0) {
+                        document.write(`${numero} es divisible en 3`);
+                    } else if (numero%5 == 0){
+                        document.write(`${numero} es divisible en 5`);
+                    } else if (numero%7 == 0){
+                        document.write(`${numero} es divisible en 7`);
+                    }
+              </pre>
+              <button class="btn btn-primary" onclick="ejercicio10()">test</button>
+              <pre class="mt-3 p-3 bg-dark text-success rounded">
+                » <span id="ejercicio10paragraph" ></span>
+              </pre>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingEleven">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
+              Ejercicio 11
+            </button>
+          </h2>
+          <div id="flush-collapseEleven" class="accordion-collapse collapse" aria-labelledby="flush-headingEleven" data-bs-parent="#accordionFlushEjercicios">
+            <div class="accordion-body">
+              <p>
+                Escribe un pcrograma que pida una frase y escriba las vocales que aparecen
+              </p>
+              <pre class="border bg-dark text-light pt-3 rounded">
+                let frase = prompt("Ingrese una frase").toLowerCase();
+                let vocalesEnFrase = "";
+                
+                console.log(frase.substring(""));
+                for (let i = 0; i < frase.length; i++) {
+                    switch(frase.charAt(i)){
+                        case "a":
+                            vocalesEnFrase += "a";
+                            break;
+                        case "e":
+                            vocalesEnFrase += "e";
+                            break;
+                        case "i":
+                            vocalesEnFrase += "i";
+                            break;
+                        case "o":
+                            vocalesEnFrase += "o";
+                            break;
+                        case "u":
+                            vocalesEnFrase += "u";
+                            break;
+                        default:
+                            break;
+                    }
+                }
+                document.write(`vocales en " ${frase} ": ${vocalesEnFrase}`);
+              </pre>
+              <button class="btn btn-primary" onclick="ejercicio11()">test</button>
+              <pre class="mt-3 p-3 bg-dark text-success rounded">
+                » <span id="ejercicio11paragraph" ></span>
               </pre>
             </div>
           </div>
